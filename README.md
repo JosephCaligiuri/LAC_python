@@ -1,6 +1,23 @@
-Current Version: 1.5.3
+Current Version: 2.0.1
 
 Patch Notes: 
+
+===================================================================================================
+
+[2.0.1]: Added new module for scanning excel sheets with the command "search_excel_file(sheet_name, keyword, row_offset, column_offset, search_in_column, search_in_row). 
+
+sheet_name: Name of the sheet within the file you would like to search through
+
+keyword: Keywords you would like to search for, format ["keyword1", "keyword2"]
+
+row_offset: Number of rows offset the target would you like to read from
+
+column_offset: Number of column offset the target would you like to read from
+
+search_in_column: Defaults to "None" lets you pick a specific column to read from, ex. "A", "B", or "C"
+
+search_in_row: Defaults to "None" lets you pick a specific column to read from, ex. 1, 2, or 3
+
 
 ===================================================================================================
 
