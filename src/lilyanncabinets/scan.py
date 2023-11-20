@@ -1,7 +1,7 @@
 """
 Author: Joseph Caligiuri
 Title: Scan
-Version: 1.3.0
+Version: 2.0.2
 Date:9/8/23
 """
 
@@ -69,9 +69,7 @@ def search_excel_file(sheet_name, keyword, row_offset, column_offset, search_in_
         print("File not found.")
     except Exception as e:
         print(f"An error occurred: {str(e)}")
-
-if __name__ == "__main__": 
-    sheet_name = "Sheet"       
-    keyword = ["color"]  
     
-    search_excel_file(sheet_name, keyword, 1, 0, "B", None)
+    return data
+
+
